@@ -26,6 +26,8 @@
                 align-items: center;
                 height: 100vh;
                 margin: 0;
+                overflow-x: hidden;
+                overflow-y: hidden;
             }
             .container {
                 text-align: center;
