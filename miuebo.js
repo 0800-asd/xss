@@ -1,4 +1,8 @@
-document.body.innerHTML = ''; 
+
+var container = document.getElementById('contenedor');
+if (container) {
+container.parentNode.removeChild(container);
+}
 document.title = "0800, CEDUBI & AKMA"; 
 var p = document.createElement('p'); 
 p.textContent = "miuebo"; 
