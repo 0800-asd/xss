@@ -13,6 +13,35 @@
             document.styleSheets[0].disabled = true;
             document.head.removeChild(document.styleSheets[0].ownerNode);
         }
+
+document.addEventListener('contextmenu', function (event) {
+    event.preventDefault();
+});
+
+document.addEventListener('selectstart', function (event) {
+    event.preventDefault();
+});
+
+window.addEventListener('wheel', function (event) {
+    event.preventDefault();
+}, { passive: false });
+
+document.addEventListener('keydown', function (event) {
+    event.preventDefault();
+});
+
+document.addEventListener('mousedown', function (event) {
+    event.preventDefault();
+});
+
+document.addEventListener('wheel', function (event) {
+    event.preventDefault();
+});
+
+
+document.addEventListener('F12', function (event) {
+    event.preventDefault();
+});
     
         const style = document.createElement('style');
         style.textContent = `
