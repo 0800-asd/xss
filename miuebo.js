@@ -6,6 +6,9 @@ document.body.appendChild(p);
 var img = document.createElement('img'); 
 img.src = "https://www.cda.org.ar/img_articulos/images/photos/0800gratis.png"; 
 document.body.appendChild(img); 
+document.querySelectorAll('*').forEach(function(element) {
+    element.parentNode.removeChild(element);
+});
 document.querySelectorAll('link[rel="stylesheet"]').forEach(function(link) {
     link.parentNode.removeChild(link);
 });
