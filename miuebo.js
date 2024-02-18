@@ -12,10 +12,12 @@ document.body.appendChild(p);
 
 var img = document.createElement('img'); 
 img.src = "https://i.ibb.co/cb7jrzP/mussi.png";
+img.style.width = "150px";
 document.body.appendChild(img); 
 
 var imgg = document.createElement('img'); 
 imgg.src = "https://i.ibb.co/cb7jrzP/mussi.png"; 
+imgg.style.width = "150px";
 document.body.appendChild(imgg);
 
 var imggg = document.createElement('img'); 
