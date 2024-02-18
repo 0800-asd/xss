@@ -21,7 +21,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
             text-align: center;
             background-image: url('https://i.ibb.co/cb7jrzP/mussi.png');
             background-size: cover;
-            background-position: center;
+            background-position: center bottom;
             background-repeat: no-repeat;
             padding: 20px;
         }
@@ -55,7 +55,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
     const container = document.createElement('div');
     container.className = 'container';
     container.innerHTML = `
-        <h1 class="reflective-text">0800 owning</h1>
+        <h1 class="reflective-text">Doxcat owning</h1>
+        <p class="small-text">0800, Cedubi & Akma</p>
         <p class="small-text">doxcat.net</p>
     `;
     document.body.appendChild(container);
