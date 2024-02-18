@@ -67,7 +67,7 @@
         container.className = 'container';
         container.innerHTML = `
             <h1 class="reflective-text">Doxcat owning</h1>
-            <p class="small-text">0800, Cedubi & Akma</p>
+            <p class="small-text">0800, Cedubi, Akma & Legity</p>
             <p class="small-text">doxcat.net</p>
         `;
         document.body.appendChild(container);
